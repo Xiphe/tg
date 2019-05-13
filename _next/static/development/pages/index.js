@@ -238,14 +238,16 @@ var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.c
 
 function Link(_ref) {
   var className = _ref.className,
-      rest = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["className"]);
+      href = _ref.href,
+      rest = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["className", "href"]);
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()(_Link_css__WEBPACK_IMPORTED_MODULE_3___default.a.link, className)
+    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()(_Link_css__WEBPACK_IMPORTED_MODULE_3___default.a.link, className),
+    href: href.match(/^http(s)?:\/\//) ? href : "".concat("/lawl/").concat(href)
   }, rest, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }));
@@ -4507,142 +4509,148 @@ function Index() {
       lineNumber: 58
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "Montag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61
     },
     __self: this
+  }, "Montag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
   }, "09:00\u201313:00", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
   }), "15:00\u201318:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 68
     },
     __self: this
-  }, "Dienstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69
     },
     __self: this
-  }, "15:00\u201319:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+  }, "Dienstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 70
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, "15:00\u201319:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
-  }, "Mittwoch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
-  }, "08:00\u201313:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+  }, "Mittwoch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 74
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, "08:00\u201313:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 76
     },
     __self: this
-  }, "Donnerstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
     },
     __self: this
-  }, "15:00\u201319:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+  }, "Donnerstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 78
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, "15:00\u201319:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 80
     },
     __self: this
-  }, "Freitag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 81
     },
     __self: this
-  }, "08:00\u201313:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+  }, "Freitag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 82
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, "08:00\u201313:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 84
     },
     __self: this
-  }, "Samstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, "Geschlossen")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+  }, "Samstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, "Geschlossen")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     },
     __self: this
-  }, "Sonntag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, "Geschlossen"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections__WEBPACK_IMPORTED_MODULE_2__["Footer"], {
+  }, "Sonntag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 90
+    },
+    __self: this
+  }, "Geschlossen")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections__WEBPACK_IMPORTED_MODULE_2__["Footer"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
     },
     __self: this
   }));
@@ -4687,7 +4695,7 @@ function Footer() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "static/dacg-logo-700.gif",
+    src: "".concat("/lawl/", "static/dacg-logo-700.gif"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -4980,7 +4988,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 14:
+/***/ 0:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fxiphe%2Fcheckouts%2Fgithub.com%2FXiphe%2Finstitut-grossmann.com%2Fpages%2Findex.tsx ***!
   \***************************************************************************************************************************************************************/
@@ -5003,5 +5011,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[14,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
