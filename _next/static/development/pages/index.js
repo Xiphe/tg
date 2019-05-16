@@ -16,8 +16,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _button_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./button.css */ "./components/Button/button.css");
-/* harmony import */ var _button_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_button_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./button.scss */ "./components/Button/button.scss");
+/* harmony import */ var _button_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_button_scss__WEBPACK_IMPORTED_MODULE_4__);
 
 
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/components/Button/Button.tsx";
@@ -30,7 +30,7 @@ function Button(_ref) {
       rest = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["className", "center"]);
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(className, _button_css__WEBPACK_IMPORTED_MODULE_4___default.a.button, center && _button_css__WEBPACK_IMPORTED_MODULE_4___default.a.center)
+    className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(className, _button_scss__WEBPACK_IMPORTED_MODULE_4___default.a.button, center && _button_scss__WEBPACK_IMPORTED_MODULE_4___default.a.center)
   }, rest, {
     __source: {
       fileName: _jsxFileName,
@@ -68,12 +68,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Frame; });
-/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./global.css */ "./components/Frame/global.css");
-/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _global_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./global.scss */ "./components/Frame/global.scss");
+/* harmony import */ var _global_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_global_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Frame_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Frame.css */ "./components/Frame/Frame.css");
-/* harmony import */ var _Frame_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Frame_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Frame_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Frame.scss */ "./components/Frame/Frame.scss");
+/* harmony import */ var _Frame_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Frame_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/components/Frame/Frame.tsx";
 
 
@@ -81,7 +81,7 @@ var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.c
 function Frame(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _Frame_css__WEBPACK_IMPORTED_MODULE_2___default.a.frame,
+    className: _Frame_scss__WEBPACK_IMPORTED_MODULE_2___default.a.frame,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -120,15 +120,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Grid; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Grid_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Grid.css */ "./components/Grid/Grid.css");
-/* harmony import */ var _Grid_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Grid_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Grid_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Grid.scss */ "./components/Grid/Grid.scss");
+/* harmony import */ var _Grid_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Grid_scss__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/components/Grid/Grid.tsx";
 
 
 function Grid(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Grid_css__WEBPACK_IMPORTED_MODULE_1___default.a.grid,
+    className: _Grid_scss__WEBPACK_IMPORTED_MODULE_1___default.a.grid,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -167,15 +167,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Headline; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Headline_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Headline.css */ "./components/Headline/Headline.css");
-/* harmony import */ var _Headline_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Headline_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Headline_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Headline.scss */ "./components/Headline/Headline.scss");
+/* harmony import */ var _Headline_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Headline_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/components/Headline/Headline.tsx";
 
 
 
-var LEVEL_CLASSES = [_Headline_css__WEBPACK_IMPORTED_MODULE_1___default.a.levelOne, _Headline_css__WEBPACK_IMPORTED_MODULE_1___default.a.levelTwo, _Headline_css__WEBPACK_IMPORTED_MODULE_1___default.a.levelThree, _Headline_css__WEBPACK_IMPORTED_MODULE_1___default.a.levelFour, _Headline_css__WEBPACK_IMPORTED_MODULE_1___default.a.levelFive];
+var LEVEL_CLASSES = [_Headline_scss__WEBPACK_IMPORTED_MODULE_1___default.a.levelOne, _Headline_scss__WEBPACK_IMPORTED_MODULE_1___default.a.levelTwo, _Headline_scss__WEBPACK_IMPORTED_MODULE_1___default.a.levelThree, _Headline_scss__WEBPACK_IMPORTED_MODULE_1___default.a.levelFour, _Headline_scss__WEBPACK_IMPORTED_MODULE_1___default.a.levelFive];
 function Headline(_ref) {
   var className = _ref.className,
       children = _ref.children,
@@ -185,7 +185,7 @@ function Headline(_ref) {
       as = _ref$as === void 0 ? level : _ref$as;
   var Tag = "h".concat(as);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Tag, {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(LEVEL_CLASSES[level - 1], _Headline_css__WEBPACK_IMPORTED_MODULE_1___default.a.headline, className),
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(LEVEL_CLASSES[level - 1], _Headline_scss__WEBPACK_IMPORTED_MODULE_1___default.a.headline, className),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -226,8 +226,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Link_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Link.css */ "./components/Link/Link.css");
-/* harmony import */ var _Link_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Link_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Link_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Link.scss */ "./components/Link/Link.scss");
+/* harmony import */ var _Link_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Link_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_4__);
 
@@ -242,8 +242,8 @@ function Link(_ref) {
       rest = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["className", "href"]);
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()(_Link_css__WEBPACK_IMPORTED_MODULE_3___default.a.link, className),
-    href: href.match(/^http(s)?:\/\//) ? href : "".concat("/lawl/").concat(href)
+    className: classnames__WEBPACK_IMPORTED_MODULE_4___default()(_Link_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link, className),
+    href: href.match(/^http(s)?:\/\//) ? href : "".concat("").concat(href)
   }, rest, {
     __source: {
       fileName: _jsxFileName,
@@ -283,15 +283,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Section; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Section_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section.css */ "./components/Section/Section.css");
-/* harmony import */ var _Section_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Section_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section.scss */ "./components/Section/Section.scss");
+/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Section_scss__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/components/Section/Section.tsx";
 
 
 function Section(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: _Section_css__WEBPACK_IMPORTED_MODULE_1___default.a.section,
+    className: _Section_scss__WEBPACK_IMPORTED_MODULE_1___default.a.section,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -330,15 +330,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Table; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Table_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Table.css */ "./components/Table/Table.css");
-/* harmony import */ var _Table_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Table_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Table_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Table.scss */ "./components/Table/Table.scss");
+/* harmony import */ var _Table_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Table_scss__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/components/Table/Table.tsx";
 
 
 function Table(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
-    className: _Table_css__WEBPACK_IMPORTED_MODULE_1___default.a.table,
+    className: _Table_scss__WEBPACK_IMPORTED_MODULE_1___default.a.table,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -4670,8 +4670,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Footer; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.css */ "./sections/Footer/Footer.css");
-/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.scss */ "./sections/Footer/Footer.scss");
+/* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components */ "./components/index.ts");
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/sections/Footer/Footer.tsx";
 
@@ -4679,7 +4679,7 @@ var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.c
 
 function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    className: _Footer_css__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
+    className: _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -4688,21 +4688,21 @@ function Footer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://dagc.de/",
     target: "_blank",
-    className: _Footer_css__WEBPACK_IMPORTED_MODULE_1___default.a.dacgLogo,
+    className: _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.dacgLogo,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "".concat("/lawl/", "static/dacg-logo-700.gif"),
+    src: "".concat("", "static/dacg-logo-700.gif"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Footer_css__WEBPACK_IMPORTED_MODULE_1___default.a.links,
+    className: _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.links,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -4766,8 +4766,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components */ "./components/index.ts");
-/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Header.css */ "./sections/Header/Header.css");
-/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Header_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Header_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Header.scss */ "./sections/Header/Header.scss");
+/* harmony import */ var _Header_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Header_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/sections/Header/Header.tsx";
 
 
@@ -4783,7 +4783,7 @@ function Header(_ref) {
       title = _ref.title;
   var pageTitle = [title, 'Thomas Grossmann'].filter(Boolean).join(' - ');
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_Header_css__WEBPACK_IMPORTED_MODULE_4___default.a.header, small && _Header_css__WEBPACK_IMPORTED_MODULE_4___default.a.small),
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_Header_scss__WEBPACK_IMPORTED_MODULE_4___default.a.header, small && _Header_scss__WEBPACK_IMPORTED_MODULE_4___default.a.small),
     style: small ? {} : {
       backgroundImage: "url('static/banner.jpg')"
     },
@@ -4837,14 +4837,14 @@ function Header(_ref) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Header_css__WEBPACK_IMPORTED_MODULE_4___default.a.headlineWrap,
+    className: _Header_scss__WEBPACK_IMPORTED_MODULE_4___default.a.headlineWrap,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-    href: "/",
+    href: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -4853,7 +4853,7 @@ function Header(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["Headline"], {
     level: 1,
     as: initialLevel,
-    className: _Header_css__WEBPACK_IMPORTED_MODULE_4___default.a.headline,
+    className: _Header_scss__WEBPACK_IMPORTED_MODULE_4___default.a.headline,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -4867,14 +4867,14 @@ function Header(_ref) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_3__["Headline"], {
     level: 3,
-    className: _Header_css__WEBPACK_IMPORTED_MODULE_4___default.a.headline,
+    className: _Header_scss__WEBPACK_IMPORTED_MODULE_4___default.a.headline,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
   }, "Amerikanische Chiropraktik Hamburg"))), small ? null : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _Header_css__WEBPACK_IMPORTED_MODULE_4___default.a.buttonWrap,
+    className: _Header_scss__WEBPACK_IMPORTED_MODULE_4___default.a.buttonWrap,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
@@ -4929,15 +4929,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Main; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Main.css */ "./sections/Main/Main.css");
-/* harmony import */ var _Main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Main_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Main.scss */ "./sections/Main/Main.scss");
+/* harmony import */ var _Main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Main_scss__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/xiphe/checkouts/github.com/Xiphe/institut-grossmann.com/sections/Main/Main.tsx";
 
 
 function Main(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
-    className: _Main_css__WEBPACK_IMPORTED_MODULE_1___default.a.main,
+    className: _Main_scss__WEBPACK_IMPORTED_MODULE_1___default.a.main,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
