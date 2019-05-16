@@ -28,11 +28,6 @@
   src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../../../static/fonts/open-sans-v16-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../../static/fonts/open-sans-v16-latin-regular.woff2") format("woff2"), url("../../../static/fonts/open-sans-v16-latin-regular.woff") format("woff"), url("../../../static/fonts/open-sans-v16-latin-regular.ttf") format("truetype"), url("../../../static/fonts/open-sans-v16-latin-regular.svg#OpenSans") format("svg");
   /* Legacy iOS */ }
 
-:root {
-  --dark: #555;
-  --blue: #2d4a82;
-  --dark-blue: #072742; }
-
 *,
 *:before,
 *:after {
@@ -44,14 +39,14 @@ body {
   font-size: 18px;
   font-family: 'Open Sans';
   background-color: white;
-  color: var(--dark); }
+  color: #555; }
   @media (max-width: 520px) {
     body {
       font-size: 16px; } }
 
 
 .components-Button-button_button {
-  background: var(--blue);
+  background: #2d4a82;
   border-radius: 4px;
   color: white;
   text-decoration: none;
@@ -70,7 +65,7 @@ body {
       height: 42px; } }
   .components-Button-button_button:focus, .components-Button-button_button:hover {
     outline: none;
-    background: var(--dark-blue); }
+    background: #072742; }
 
 .components-Button-button_center {
   margin: 10px; }
@@ -79,7 +74,7 @@ body {
   font-weight: 400;
   line-height: 1;
   margin: 0;
-  color: var(--blue); }
+  color: #2d4a82; }
 
 /* Levels */
 .components-Headline-Headline_levelOne {
@@ -112,15 +107,16 @@ body {
     margin-right: 5%; } }
 
 .components-Link-Link_link {
-  color: var(--blue);
+  color: #2d4a82;
   text-decoration: none; }
   .components-Link-Link_link:hover, .components-Link-Link_link:focus {
-    color: var(--dark-blue);
+    color: #072742;
     text-decoration: underline; }
 
 .sections-Header-Header_header {
   height: 80vh;
   background-size: cover;
+  background-position: center center;
   position: relative; }
 
 .sections-Header-Header_small {
@@ -128,7 +124,7 @@ body {
   .sections-Header-Header_small h1,
   .sections-Header-Header_small h2,
   .sections-Header-Header_small h3 {
-    background: var(--blue);
+    background: #2d4a82;
     color: white; }
 
 .sections-Header-Header_headline {
@@ -157,7 +153,7 @@ body {
 
 .sections-Footer-Footer_footer {
   position: relative;
-  border-top: 2px solid var(--dark); }
+  border-top: 2px solid #555; }
 
 .sections-Footer-Footer_dacgLogo {
   display: inline-block;

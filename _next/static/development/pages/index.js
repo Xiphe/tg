@@ -243,7 +243,7 @@ function Link(_ref) {
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     className: classnames__WEBPACK_IMPORTED_MODULE_4___default()(_Link_scss__WEBPACK_IMPORTED_MODULE_3___default.a.link, className),
-    href: href.match(/^http(s)?:\/\//) ? href : "".concat("").concat(href)
+    href: href.match(/^http(s)?:\/\//) ? href : "".concat("/").concat(href)
   }, rest, {
     __source: {
       fileName: _jsxFileName,
@@ -4376,278 +4376,278 @@ function Index() {
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Section"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Headline"], {
-    level: 2,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Section"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "Lernen Sie uns pers\xF6nlich kennen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Headline"], {
+    level: 2,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "Jeden Dienstagabend findet unser kostenloses Gesundheitsforum statt. Hier beantworten wir Ihnen gerne s\xE4mtliche Fragen zur Amerikanischen Chiropraktik, unseren Behandlungsmethoden und allem, was Sie sonst rund um Ihre Gesundheit bewegt. Da wir nur eine begrenzte Anzahl an Pl\xE4tzen haben, m\xF6chten wir Sie bitten, sich rechtzeitig anzumelden.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Section"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Headline"], {
-    level: 2,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
   }, "Kontakt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 23
     },
     __self: this
   }, "Telefon:"), ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     href: "tel:00494085373395",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 24
     },
     __self: this
   }, "+49 (0) 40 85 37 33 95"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 26
     },
     __self: this
   }, "E-Mail:"), ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     href: "mailto:info@institut-grossmann.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 27
     },
     __self: this
   }, "info@institut-grossmann.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Section"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Headline"], {
     level: 2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 33
     },
     __self: this
   }, "Anfahrt"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 34
     },
     __self: this
   }, "Thomas Grossmann", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 36
     },
     __self: this
   }), "Hallerplatz 4", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 37
     },
     __self: this
   }), "20146 Hamburg"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     href: "https://goo.gl/maps/88ySejyHH3ybK3Fv8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 40
     },
     __self: this
   }, "Karte \xD6ffnen"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Section"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Headline"], {
     level: 2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 46
     },
     __self: this
   }, "\xD6ffnungszeiten"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Table"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 51
     },
     __self: this
   }, "Montag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 52
     },
     __self: this
   }, "09:00\u201313:00", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 54
     },
     __self: this
   }), "15:00\u201318:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 59
     },
     __self: this
   }, "Dienstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 60
     },
     __self: this
   }, "15:00\u201319:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 63
     },
     __self: this
   }, "Mittwoch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 64
     },
     __self: this
   }, "08:00\u201313:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 67
     },
     __self: this
   }, "Donnerstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 68
     },
     __self: this
   }, "15:00\u201319:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 70
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 71
     },
     __self: this
   }, "Freitag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 72
     },
     __self: this
   }, "08:00\u201313:00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 75
     },
     __self: this
   }, "Samstag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 76
     },
     __self: this
   }, "Geschlossen")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 78
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 79
     },
     __self: this
   }, "Sonntag"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 80
     },
     __self: this
-  }, "Geschlossen")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections__WEBPACK_IMPORTED_MODULE_2__["Footer"], {
+  }, "Geschlossen"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Section"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Headline"], {
+    level: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "Lernen Sie uns pers\xF6nlich kennen"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "Jeden Dienstagabend findet unser kostenloses Gesundheitsforum statt. Hier beantworten wir Ihnen gerne s\xE4mtliche Fragen zur Amerikanischen Chiropraktik, unseren Behandlungsmethoden und allem, was Sie sonst rund um Ihre Gesundheit bewegt. Da wir nur eine begrenzte Anzahl an Pl\xE4tzen haben, m\xF6chten wir Sie bitten, sich rechtzeitig anzumelden."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_sections__WEBPACK_IMPORTED_MODULE_2__["Footer"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 96
@@ -4682,7 +4682,7 @@ function Footer() {
     className: _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -4691,41 +4691,41 @@ function Footer() {
     className: _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.dacgLogo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "".concat("", "static/dacg-logo-700.gif"),
+    src: "".concat("/", "static/dacg-logo-700.gif"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Footer_scss__WEBPACK_IMPORTED_MODULE_1___default.a.links,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     href: "datenschutz",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, "Datenschutz"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     href: "impressum",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "Impressum und Haftungsausschluss")));
